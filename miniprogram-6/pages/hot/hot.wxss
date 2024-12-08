@@ -1,0 +1,49 @@
+.header {
+    background: linear-gradient(135deg, #ffd1dc, #f8b4e4);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.header-content {
+    color: #5a2a83;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.header-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.stats-item {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    /* 调整间距 */
+}
+
+.stats-send {
+    width: 17px;
+    height: 17px;
+    margin: 0 8px;
+    /* 调整间距 */
+}
+
+.music-hot {
+    margin-top: 15px;
+    /* 以便与头部分隔 */
+}

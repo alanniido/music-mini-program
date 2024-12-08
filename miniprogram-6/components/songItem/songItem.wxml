@@ -1,0 +1,15 @@
+<view class="song-list">
+    <view class="song" wx:for="{{item.songs}}" wx:key="index" wx:for-item="song" data-index="{{index}}" bindmouseover="onMouseOver" bindmouseout="onMouseOut">
+        <view class="song-index-container">
+            <text wx:if="{{!song.isHovered}}" class="song-index">{{song.id}}</text>
+        </view>
+        <image class="album-image" src="{{song.image}}" mode="aspectFill"></image>
+        <view class="song-details">
+            <text class="song-title">{{song.title}}</text>
+            <text class="song-artist">{{song.artist}}</text>
+        </view>
+        <text class="song-duration">{{song.duration}}</text>
+        <image wx:if="{{song.isHovered}}" class="play-icon" src="{{song.Playicon}}" mode="aspectFit"></image>
+    </view>
+</view>
+

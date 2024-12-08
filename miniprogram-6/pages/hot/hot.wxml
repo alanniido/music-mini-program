@@ -1,0 +1,21 @@
+<view class="header">
+    <view class="header-content">
+        <text class="header-title">{{header.title}}</text>
+        <view>
+            <text class="header-subtitle">每日推荐，听你所爱之音🎶</text>
+        </view>     
+        <view class="header-stats">
+            <image class="stats-item" src="./heart (1).png" mode="aspectFit"></image>
+            <text>{{header.likes}}</text>
+            <image class="stats-item" src="./star (2).png" mode="aspectFit"></image>
+            <text>{{header.favorites}}</text>
+            <image class="stats-send" src="./send.png" mode="aspectFit"></image>
+            <text>{{header.comments}}</text>
+        </view>
+    </view>
+</view>
+<view class="music-hot">
+    <view wx:for="{{music}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <songItem item="{{item}}" bindmouseover="onMouseOver" bindmouseout="onMouseOut" data-index="{{index}}"/>
+    </view>
+</view>

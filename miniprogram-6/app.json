@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/hot/hot",
+    "pages/broadcast/broadcast"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐小程序",
+    "navigationBarBackgroundColor": "#ff69b4ab"
+  },
+  "tabBar": {
+    "color": "#7A7A7A",
+    "selectedColor": "#ff69b4",
+    "backgroundColor": "#ff69b4ab",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户中心",
+        "iconPath": "pages/hot/listen.png",
+        "selectedIconPath": "pages/hot/listen.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "每日推荐",
+        "iconPath": "pages/hot/electric-guitar.png",
+        "selectedIconPath": "pages/hot/electric-guitar.png"
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "text": "私人播客",
+        "iconPath": "pages/hot/radio.png",
+        "selectedIconPath": "pages/hot/radio.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

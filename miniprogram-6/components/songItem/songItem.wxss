@@ -1,0 +1,104 @@
+.song-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f9f9ff;
+  /* 背景配色 */
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 10rpx;
+  /* 增加内边距 */
+  border-bottom: 1rpx solid #E6E6FA;
+  /* 边框颜色 */
+  background-color: #ffffff;
+  /* 每一项的背景色 */
+  border-radius: 8rpx;
+  /* 圆角，增强可爱感 */
+  margin: 5rpx 0;
+  /* 上下间距 */
+  transition: background-color 0.2s;
+  /* 背景色过渡效果 */
+}
+
+.song:hover {
+  background-color: #E6D3FF;
+  /* 鼠标悬停效果 */
+}
+
+.song-index {
+  width: 30rpx;
+  text-align: center;
+  font-weight: bolder;
+  color: #6A5ACD;
+  /* 深紫色 */
+  margin-right: 10rpx;
+  /* 右间距 */
+}
+
+.song-index-container {
+  display: flex;
+  align-items: center;
+}
+
+.play-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.album-image {
+  width: 70rpx;
+  /* 缩小头像尺寸 */
+  height: 70rpx;
+  /* 保持圆角 */
+  border-radius: 8rpx;
+  /* 圆角 */
+  margin-right: 20rpx;
+  /* 右边距 */
+  margin-left: 15rpx;
+}
+
+.song-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-title {
+  font-size: 26rpx;
+  /* 字体更大一些 */
+  color: #6A5ACD;
+  /* 紫色 */
+}
+
+.song-artist {
+  font-size: 22rpx;
+  /* 字体更小 */
+  color: #8A2BE2;
+  /* 浅紫色 */
+}
+
+.song-duration {
+  width: 80rpx;
+  font-size: 24rpx;
+  /* 字体大小 */
+  color: #8A2BE2;
+  /* 紫色 */
+  text-align: right;
+  /* 右对齐 */
+  margin-left: 10rpx;
+  /* 左边距 */
+  margin-right: 15rpx;
+}
+
+.like-icon {
+  width: 18rpx;
+  /* 缩小图标尺寸 */
+  height: 18rpx;
+  /* 缩小图标尺寸 */
+  margin-left: 10rpx;
+  /* 左边距 */
+}

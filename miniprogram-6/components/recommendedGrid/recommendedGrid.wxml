@@ -1,0 +1,20 @@
+<view class="grid-container">
+  <view class="header">
+    <text class="title">为你推荐的专属播客</text>
+    <text class="settings">兴趣定制</text>
+  </view>
+  <view class="grid">
+    <block wx:for="{{items}}" wx:key="index">
+      <view class="grid-item">
+        <image class="cover" src="{{item.cover}}" mode="aspectFill" />
+        <image class="play-icon" src="audio-waves.png" mode="aspectFill" /> <!-- 替换为你的播放图标路径 -->
+        <view class="name-container">
+          <text class="name">{{item.name}}</text>
+        </view>
+        <view class="info-container">
+          <text class="info">{{item.info}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

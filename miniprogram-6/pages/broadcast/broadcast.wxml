@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="intro"><text>精选推荐-定制您的私人FM</text></view>
+  <view class="highlighted-section">
+    <image class="cover" src="./hcy.jpg" mode="aspectFill" />
+    <view class="info">
+      <text class="title">忒休斯的船||华晨宇live</text>
+      <view><text class="sub-info">50.8万次播放</text></view>
+    </view>
+    <image class="play-icon" src="play-button.png" mode="aspectFill" />
+  </view>
+</view>
+<view>
+  <recommended-grid items="{{podcastList}}"></recommended-grid>
+</view>
